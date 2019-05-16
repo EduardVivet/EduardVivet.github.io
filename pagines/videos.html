@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VIDEOS</title>
+     <script src="/JS/jquery.js"></script> 
+    <script src="/JS/mediaelement-and-player.js"></script> 
+    <link href="/styles/mediaelementplayer.css" rel="stylesheet">
+    
+    <!--Plugins-->    
+      <script src="/pluguin/skip-back-i18n.js"></script>    
+      <script src="/pluguin/skip-back.min.js"></script>    
+      <link href="/pluguin/skip-back.min.css" rel="stylesheet">   
+       <!---->
+       <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <div class="contenidor">
+  <div class="contenidor2">
+   <h1>VIDEO REEL </h1>
+    <div class="mostra flexgrow color1b"><a href="../index.html" class="btn">INICI</a>
+<div class="wrapper"> 
+    <video  controls width="720" height="480">
+    <source src="/video/video%20reel%20finalitzat.mp4" type="video/mp4">
+    </video>
+    </div>
+    <script> 
+        $('video').mediaelementplayer({  
+            features: ['playpause','tracks','skipback'],
+           skipBackInterval: 5 
+        });
+    </script> 
+      </div>
+    </div>
+    </div>
+</body>
+</html>

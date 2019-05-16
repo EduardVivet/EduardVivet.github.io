@@ -1,0 +1,146 @@
+/*Text*/
+* {
+    font-family: "Lato", sans-serif;
+}
+
+h1{
+    color:black;
+    font-family: "Lato", sans-serif;
+}
+h2 {
+    color: skyblue;
+    font-family: "Unlock", cursive;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+p2 {
+    font-family: "Lato", sans-serif;
+}
+
+h3,
+h4 {
+    text-decoration: underline;
+    font-family: 'Unlock', cursive;
+}
+
+.btn {
+    font-family: "Unlock";
+}
+
+/*estructura contenidor imatges*/
+
+
+
+/*Estructura*/
+.contenidor {
+    width: 75%;
+    padding: 24px;
+    background-color: aliceblue;
+    margin: auto;
+  
+}
+
+
+.contenidor2 {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+      box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexgrow {
+    flex: 1 200px;
+}
+
+.mostra {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 5px solid grey;
+    text-align: center;
+}
+
+/*Color de links*/
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background: yellow;
+}
+
+a:active {
+    color: lime;
+}
+
+/*Imatge*/
+
+.imatge {
+    margin: 10px;
+}
+
+/*Color*/
+body {
+    background-color: lightyellow;
+    margin: 0px;
+}
+
+.color1a {
+    background: red;
+}
+
+.color1b {
+    background: cornflowerBlue;
+}
+
+.color1c {
+    background: yellow;
+}
+
+
+}
+.ombra {
+    text-shadow: 2px 2px 5px #555555;
+}
+
+    a: hover {
+        text-decoration: underline;
+        font-style: italic;
+        background: blue;
+        color: white;
+    }
+
+    a:visited {
+        color: grey;
+    }
+
+    /*Imatge*/
+    
+    .image2 {
+        width: 100%;
+        margin:  auto;
+        
+    }
+
+/*video*/
+ .wrapper {    
+            width: 80%;    
+            margin: auto;   
+            display: flex;
+            justify-content: center;
+        }   
+        .video 
+        {    width: 100%;   
+        }  
