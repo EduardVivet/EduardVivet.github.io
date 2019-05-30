@@ -6,24 +6,34 @@
 h1{
     color:black;
     font-family: "Lato", sans-serif;
+        color: azure;
+    text-shadow: 1px 1px 1px #000000;
 }
 h2 {
     color: skyblue;
     font-family: "Unlock", cursive;
+        color: azure;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 p {
     font-family: "Lato", sans-serif;
+    color: azure;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 p2 {
     font-family: "Lato", sans-serif;
+    color: azure;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 h3,
 h4 {
     text-decoration: underline;
     font-family: 'Unlock', cursive;
+    color: azure;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .btn {
@@ -38,7 +48,7 @@ h4 {
 .contenidor {
     width: 75%;
     padding: 24px;
-    background-color: aliceblue;
+    
     margin: auto;
   
 }
@@ -46,7 +56,6 @@ h4 {
 
 .contenidor2 {
     width: 100%;
-    background-color: aliceblue;
     margin: auto;
       box-sizing: border-box;
 }
@@ -85,28 +94,15 @@ a:active {
     color: lime;
 }
 
-/*Imatge*/
 
-.imatge {
-    margin: 10px;
-}
 
 /*Color*/
-body {
-    background-color: lightyellow;
-    margin: 0px;
+.body {
+    background-color: url("/imagenes/carpetes/dibuix_amb_tablet/montanya1.jpg");
 }
 
 .color1a {
     background: red;
-}
-
-.color1b {
-    background: cornflowerBlue;
-}
-
-.color1c {
-    background: yellow;
 }
 
 
@@ -144,4 +140,79 @@ body {
         .video 
         {    width: 100%;   
         }  
+/*desplegable*/
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+    text-align:center;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+.MenuDes > li{
+    position: relative;
+    display: inline-block;
+}
+.MenuDes > li > a{
+    display: block;
+    padding: 10px;
+    color: #353535;
+    font-family: cursive;
+    text-decoration: none;  
+}
+.MenuDes > li a:hover{
+    color:aqua;
+    transition: all .5s;
+     
+}
+
+
+/*submenu*/
+
+.SubMenuDes{
+    position:absolute;
+    background: #333333;
+    width: 100px;
+    display:none;
+}
+.SubMenuDes li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family:"Lato", sans-serif;
+    text-decoration: none;
+}
+.MenuDes li:hover .SubMenuDes{
+     display: block;
+}
+/*Imatge*/
+
+.imatge {
+    margin: 10px;
+    
+}
+.image2{
+  opacity: 0.5;
+  filter: alpha(opacity=25); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
