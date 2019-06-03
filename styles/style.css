@@ -30,7 +30,7 @@ p2 {
 
 h3,
 h4 {
-    text-decoration: underline;
+    
     font-family: 'Unlock', cursive;
     color: azure;
     text-shadow: 1px 1px 1px #000000;
@@ -190,12 +190,14 @@ a:active {
 /*Imatge*/
 
 .imatge {
-    margin: 10px;
+    margin: auto;
     
 }
 .image2{
-  opacity: 0.5;
-  filter: alpha(opacity=25); /* For IE8 and earlier */
+    margin: center;
+width: 800px;
+
+  position: center;
 }
 
 
