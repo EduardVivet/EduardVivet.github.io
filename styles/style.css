@@ -5,27 +5,27 @@
 
 h1{
     color:black;
-    font-family: "Lato", sans-serif;
+    font-family: 'Bad Script', cursive;
         color: azure;
     text-shadow: 1px 1px 1px #000000;
 }
 h2 {
     color: skyblue;
-    font-family: "Unlock", cursive;
+    font-family: 'Bad Script', cursive;
         color: azure;
     text-shadow: 1px 1px 1px #000000;
 }
 
 p {
-    font-family: "Lato", sans-serif;
+    font-family: sans-serif;
     color: azure;
     text-shadow: 1px 1px 1px #000000;
 }
 
 p2 {
-    font-family: "Lato", sans-serif;
-    color: azure;
-    text-shadow: 1px 1px 1px #000000;
+    font-family: sans-serif;
+    color:aliceblue;
+    text-shadow: 1px 2px 1px #000000;
 }
 
 h3,
@@ -159,11 +159,11 @@ a:active {
     display: block;
     padding: 10px;
     color: #353535;
-    font-family: cursive;
+    font-family: 'Bad Script', cursive;
     text-decoration: none;  
 }
 .MenuDes > li a:hover{
-    color:aqua;
+    
     transition: all .5s;
      
 }
@@ -181,7 +181,7 @@ a:active {
     display: block;
     padding: 15px;
     color: #fff;
-    font-family:"Lato", sans-serif;
+   font-family: none;
     text-decoration: none;
 }
 .MenuDes li:hover .SubMenuDes{
